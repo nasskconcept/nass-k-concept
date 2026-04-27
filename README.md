@@ -76,7 +76,6 @@ Galerie d'Art
 
 ## Difficultés rencontrées
 
-> Décrivez 1 à 3 difficultés techniques rencontrées pendant le projet, et comment vous les avez résolues (ou non).
 
 - Problème rencontré avec le responsive : pas possible de placer les élément de la page d'accueil dans l'ordre voulu ("order").
 - Problème rencontré avec le message de succés page contact résolu grâce à min-height.
