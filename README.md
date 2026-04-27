@@ -61,7 +61,6 @@ Galerie d'Art
 
 ### Accessibilité
 
-> Indiquez les points d'accessibilité vérifiés (contrastes, navigation, ...)
 
 - focus au clavier pour la navigation
 - couleurs contrastés (score minimum AA)
