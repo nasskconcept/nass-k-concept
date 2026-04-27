@@ -1,0 +1,90 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.card {
+  display: flex;
+  gap: 40px;
+  max-width: 1100px;
+  align-items: center;
+}
+.card img {
+  width: 350px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 180px;
+  box-shadow: 2px 4px 4px #4a4a4a;
+}
+
+.text-card {
+  margin-left: 20px;
+}
+h2 {
+  margin-bottom: 30px;
+}
+h4 {
+  font-family: "Prata", serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.card p {
+  font-size: 32px;
+  line-height: 40px;
+}
+.name {
+  font-weight: bold;
+  color: #a89968;
+  text-shadow: none;
+}
+.btn-galerie {
+  width: 300px;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  background-color: #a89968;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-top: 40px;
+  transition-duration: 0.8s;
+  box-shadow: 0 2px 8px rgba(168, 153, 104, 0.2);
+}
+.btn-galerie:hover {
+  background-color: #9a8a54;
+  transform: translateY(-1px);
+}
+.btn-galerie:focus {
+  outline: 2px #a89968;
+  outline-offset: 2px;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+
+  }
+  .text-card {
+    display: contents;
+  }
+  .text-card-two {
+    display: contents;
+  }
+  .titre {
+    order: 1;
+    text-align: center;
+  }
+.card img {
+  order: 2;
+}
+  .description {
+    order: 3;
+  }
+  .paragraphe {
+    order: 4;
+  }
+  .btn-galerie {
+    order: 5;
+  }
+}

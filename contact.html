@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nass-K-Concept - Galerie d'Art</title>
+    <meta
+      name="description"
+      content="Découvrez l'univers artistique de Nass -K - Concept à travers une galerie de créations originales mélant émotion, imagination et expression personelle. Explorer les oeuvres, contactez l'artiste et plongez dans un univers singulier."
+    />
+    <meta name="author" content="Nassima Mehdi" />
+    <meta
+      name="keywords"
+      content="art, galerie, artiste, dessin, créativité, émotion, art thérapie, illustration, exposition, Nass K Concept"
+    />
+    <link rel="stylesheet" href="commun.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="icon" type="image/png" href="img/nasskconcept.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Ceci est mon header-->
+    <header>
+      <div class="header-left">
+        <a href="index.html"
+          ><img
+            class="logo-header"
+            src="img/nasskconcept.png"
+            alt="logo Nass-K-Concept"
+            title="Nass-K-Concept"
+        /></a>
+        <h1>Nass - K - Concept</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Ceci est mon main-->
+    <main>
+      <!--Ceci est le titre de ma page-->
+      <h2>Contact</h2>
+
+      <section class="contact">
+        <!--Formulaire contact-->
+        <section class="form-container">
+          <input type="checkbox" id="sent-toggle" />
+
+          <form class="formulaire" action="#" method="post">
+            <ul>
+              <li>
+                <label for="name">Nom :</label>
+                <input
+                  type="text"
+                  placeholder="Votre nom"
+                  id="name"
+                  name="user_name"
+                  required
+                />
+              </li>
+
+              <li>
+                <label for="mail">E-mail :</label>
+                <input
+                  type="email"
+                  placeholder="votre@email.com"
+                  id="mail"
+                  name="user_mail"
+                  required
+                />
+              </li>
+
+              <li>
+                <label for="msg">Message :</label>
+                <textarea
+                  placeholder="Votre message "
+                  name="user_message"
+                  id="msg"
+                  required
+                ></textarea>
+              </li>
+            </ul>
+
+            <label for="sent-toggle" class="button-fake">
+              Envoyer votre message
+            </label>
+          </form>
+
+          <div id="success-message">
+            Votre message a été envoyé avec succès !
+          </div>
+        </section>
+
+        <!--Photo de profil et réseaux sociaux-->
+        <section class="reseaux-profil">
+          <img
+            class="contact-profil"
+            src="img/contact-profil.jpeg"
+            alt="femme artiste noir et blanc cheveux bouclés"
+            title="Nass-K-Concept"
+          />
+          <section class="reseaux-sociaux">
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img src="img/linkedin.svg" alt="LinkedIn" title="LinkedIn" />
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="img/instagram.svg" alt="Instagram" title="Instagram" />
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="img/facebook.svg" alt="Facebook" title="Facebook" />
+            </a>
+
+            <a href="https://www.behance.net/" target="_blank">
+              <img src="img/behance.svg" alt="Behance" title="Behance" />
+            </a>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <!--Ceci est mon footer-->
+    <footer>
+      <section class="footer-top">
+        <div class="logo-description">
+          <img
+            class="footer-logo"
+            src="img/nasskconcept.png"
+            alt="logo Nass-K-Concept"
+            title="Nass-K-Concept"
+          />
+          <p>Nass-K-Concept est une artiste en art-thérapie</p>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">mentions légales</a></li>
+          <li><a href="#">CGV</a></li>
+          <li><a href="#">politique de confidentialité</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Newsletter</a></li>
+          <li>
+            <a href="mailto:nasskconcept@gmail.com">nasskconcept@gmail.com</a>
+          </li>
+          <li><a href="tel:0600000000">0600000000</a></li>
+        </ul>
+      </section>
+
+      <p class="footer-p">© 2026 Nass - K - Concept. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

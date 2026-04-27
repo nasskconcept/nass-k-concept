@@ -1,0 +1,134 @@
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+.contact {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12%;
+}
+.contact-profil {
+  width: 320px;
+  height: 300px;
+  object-fit: cover;
+  border: 4px solid #a89968;
+  border-radius: 50%;
+}
+.reseaux-sociaux img {
+  width: 60px;
+  height: 60px;
+}
+.reseaux-profil {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reseaux-sociaux {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.reseaux-sociaux a img {
+  transition: 0.4s;
+}
+
+.reseaux-sociaux a:hover img {
+  transform: scale(1.1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form li {
+  font-size: 22px;
+  list-style: none;
+}
+label {
+  font-weight: bold;
+  margin: 20px 0;
+}
+input {
+  min-height: 42px;
+}
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+input,
+textarea {
+  width: 400px;
+  border: 1px solid #e0d8d0;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #a89968;
+  box-shadow: 0 0 6px rgba(168, 153, 104, 0.4);
+}
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#sent-toggle {
+  display: none;
+}
+#success-message {
+  width: 400px;
+  display: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #a89968;
+  text-align: center;
+  border: 1px solid #a89968;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+#sent-toggle:checked ~ .formulaire {
+  display: none;
+}
+
+#sent-toggle:checked ~ #success-message {
+  display: block;
+}
+.button-fake {
+  display: block;
+  background-color: #a89968;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-top: 40px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(168, 153, 104, 0.2);
+}
+
+.button-fake:hover {
+  background-color: #9a8a54;
+  transform: translateY(-1px);
+}
+.button-fake:focus {
+  outline: 2px #a89968;
+  offset: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    gap: 40px;
+  }
+  #success-message {
+    margin-bottom: 40px;
+  }
+}
