@@ -38,7 +38,7 @@ Galerie d'Art
 
 | Page             | Nom du fichier | Description courte                                        |
 | ---------------- | -------------- | --------------------------------------------------------- |
-| Page 1 — Accueil | `accueil.html` | Page principale du site                                   |
+| Page 1 — Accueil | `accueil.html` | Page principale du site présentation de l'artiste                                   |
 | Page 2 — Galerie | `galerie.html` | Deuxième page du site galerie d'images                    |
 | Page 3 — Contact     | `contact.html` | Troisième page du site formulaire contact réseaux sociaux |
 
