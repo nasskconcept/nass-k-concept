@@ -40,7 +40,7 @@ Galerie d'Art
 | ---------------- | -------------- | --------------------------------------------------------- |
 | Page 1 — Accueil | `accueil.html` | Page principale du site                                   |
 | Page 2 — Galerie | `galerie.html` | Deuxième page du site galerie d'images                    |
-| Page 3 — ...     | `contact.html` | Troisième page du site formulaire contact réseaux sociaux |
+| Page 3 — Contact     | `contact.html` | Troisième page du site formulaire contact réseaux sociaux |
 
 ---
 
